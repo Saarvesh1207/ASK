@@ -1,13 +1,12 @@
 # ASK and FSK
 # Aim
 Write a simple Python program for the modulation and demodulation of ASK and FSK.
-# Tools required
+## TOOLS REQUIRED:
+google coolab
 
-Google Colab
-
-# Program
+## PROGRAM:
 ### ASK
-
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -55,9 +54,9 @@ marker='x')
 plt.title('Decoded Bits')
 plt.tight_layout()
 plt.show()
-
-### FSK 
-
+```
+### FSK:
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -143,15 +142,15 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-# Output Waveform
-### ASK
+```
+## OUTPUT WAVEFORM:
 
-<img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/515359e7-9a8a-4ea2-b450-2a75ca0f8584" />
+### ASK:
+<img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/4548dce5-2f76-48c7-baa3-bc86a4eb0216" />
 
-### FSK 
+### FSK:
+<img width="1201" height="1012" alt="image" src="https://github.com/user-attachments/assets/b7636f79-b2f6-4903-94c3-0b1d4d0da7b1" />
 
-<img width="1201" height="1012" alt="image" src="https://github.com/user-attachments/assets/903bba40-05d4-4084-9bf6-2a89c82965e2" />
 
-# Results
-
-Thus the outputs were acquired.
+## RESULTS:
+Thus the simple Python program for the modulation and demodulation of ASK and FSK is verified.
